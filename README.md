@@ -22,7 +22,7 @@ const skills = {
 const hobbies = [
   "Biking",
   "Activism",
-  "Gaming",
+  "Research",
   "Homelab",
   "Photography",
   "Programming",
