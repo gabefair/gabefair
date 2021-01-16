@@ -1,3 +1,4 @@
+```typescript
 const about = {
   name: "Gabriel Fair",
   location: "Charlotte/San Diego/D.C.",
@@ -33,3 +34,4 @@ export const gabeFair = {
   skills: { ...skills },
   hobbies: { ...hobbies },
 };
+```
