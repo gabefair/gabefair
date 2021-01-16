@@ -1,16 +1,35 @@
-### Hi there 👋
+const about = {
+  name: "Gabriel Fair",
+  location: "Charlotte/San Diego/D.C.",
+  intro: "Living a muli-dimensional life",
+};
 
-<!--
-**gabefair/gabefair** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+const skills = {
+  languages: [
+    "TypeScript",
+    "HTML/CSS/JavaScript",
+    "Python",
+  ],
+  databases: ["MySQL", "MongoDB"],
+  operatingSystems: {
+    server: ["Ubuntu Server"],
+    desktop: ["Windows", "Ubuntu", "macOS"],
+  },
+  tools: ["Docker", "Hyper-V", "VSCode"],
+};
 
-Here are some ideas to get you started:
+const hobbies = [
+  "Biking",
+  "Cars",
+  "Gaming",
+  "Homelab",
+  "Photography",
+  "Programming",
+  "Baking",
+];
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+export const gabeFair = {
+  about: { ...about },
+  skills: { ...skills },
+  hobbies: { ...hobbies },
+};
